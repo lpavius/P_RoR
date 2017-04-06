@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<script type="text/javascript" src="./popup.js"></script>
-	<title>Form</title>
-</head>
-<body>
-	<form>
-		<div>
-			<label>Firstname :</label>
-			<input id="Firstname" type="text" name="Firstname">
-		</div>
-		<div>
-			<label>Name :</label>
-			<input id="Name" type="text" name="Name">
-
-		<div>
-			<label>Age :</label>
-			<input id="Age" type="number">
-		</div>
-		<div>
-			<label>Phone :</label>
-			<input id="Phone" type="tel" name="Phone">
-		</div>
-		<div>
-			<label>Email :</label>
-			<input id="Email" type="email" name="Email">
-		</div>
-		<div>
-			<label>Student at 42 ?</label>
-			<input id="student" type="checkbox" value="true">
-		</div>
-		<div>
-			<label>Male</label>
-			<input id="Gender" type="radio" value="true" onclick=0>
-			<label>Femal</label>
-			<input id="Gender" type="radio" value="true" onclick=0>
-			<label>Other</label>
-			<input id="Gender" type="radio" value="true" onclick=0>
-		</div>
-		<div>
-			<button type="Submit" onclick="displayFormContents()">Submit</button>
-		</div>
-	</form>
-
-		
-</body>
+	<head>
+	<meta charset="utf-8">
+		<script type="text/javascript" src="popup.js"></script>
+		<title>Formulaire</title>
+	</head>
+	<body>
+		<form>
+			<div>
+				<label>Firstname :</label>
+				<input id="firstname" type="text" name="Firstname">
+			</div>
+			<div>
+				<label>Name :</label>
+				<input id="name" type="text" name="Name">
+			<div>
+				<label>Phone :</label>
+				<input id="phone" type="tel" name="Phone">
+			</div>
+			<div>
+				<label>Age :</label>
+				<input id="age" type="number">
+			</div>
+			
+			<div>
+				<label>Email :</label>
+				<input id="email" type="email" name="Email">
+			</div>
+			<div>
+				<label>Student at 42 ?</label>
+				<input id="student" type="checkbox" value="true">
+			</div>
+			<div>
+				<label>Male</label>
+				<input id="gender_male" name="Gender" type="radio" value="Male" onclick=0>
+				<label>Female</label>
+				<input id="gender_female" name="Gender" type="radio" value="Female" onclick=0>
+				<label>Other</label>
+				<input id="gender_other" name="Gender" type="radio" value="Other" onclick=0>
+			</div>
+			<div class="button">
+				<button type="submit" onclick="displayFormContents();">Submit</button>
+			</div>
+		</form>		
+	</body>
 </html>
