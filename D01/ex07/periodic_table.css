@@ -1,0 +1,30 @@
+
+h1 {
+	text-align: center;
+}
+h4 {
+	text-align: center;
+	margin-top: 0
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0
+}
+li {
+	text-align: center;
+	font-size: 10px
+}
+td {
+	border: 1px solid black; 
+	margin: 0;
+	padding: 0;
+	height: 100px;
+	width: 160px
+}
+.ncell {
+	border: none; 
+	padding:10px;
+	height: 120px;
+	width: 170px
+}
